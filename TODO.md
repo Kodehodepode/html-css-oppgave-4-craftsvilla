@@ -105,6 +105,18 @@
 - [] :hover
 - [] ::after
 
+### JavaScript
+
+- [] defer atributten
+- [] kommentarer
+- [] datatyper (variabler, arrays, objekter, null / undefined)
+- [] let vs const
+- [] Basic operators, including increment and complex assignment
+- [] Strict equality!
+- [] Using camelCase
+- [] Descriptive variablenames
+- [] String concatenation with the + operator
+
 ### Figma
 
 - [] Frames
