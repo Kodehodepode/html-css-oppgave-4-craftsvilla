@@ -66,50 +66,50 @@
 
 ### HTML
 
-[] Meta-tagger
-[] Semantiske tagger
-[] H1...6 (Helst bare én H1 tag per dokument)
-[] Kommentarer
-[] Tilgjengelighet (alt attributt)
-[] Lenker
-[] Skjemaer (input typer, button, label, select/option)
-[] Media (video/audio tag, src attributt)
-[] iframe (f.ex youtube)
-[] Dialog
-[] Fonter
-[] Favicon
-[] Nav-taggen
-[] Lister
-[] Picture-taggen, source-taggen og srcset/media attributter
-[] Figure og figcaption
+- [] Meta-tagger
+- [] Semantiske tagger
+- [] H1...6 (Helst bare én H1 tag per dokument)
+- [] Kommentarer
+- [] Tilgjengelighet (alt attributt)
+- [] Lenker
+- [] Skjemaer (input typer, button, label, select/option)
+- [] Media (video/audio tag, src attributt)
+- [] iframe (f.ex youtube)
+- [] Dialog
+- [] Fonter
+- [] Favicon
+- [] Nav-taggen
+- [] Lister
+- [] Picture-taggen, source-taggen og srcset/media attributter
+- [] Figure og figcaption
 
 ### CSS
 
-[] Flexbox
-[] Kommentarer
-[] Farger og bakgrunner
-[] Marginer, polstring (padding), boksmodellen
-[] Klasser og IDer
-[] Kaskade og spesifisitet
-[] Reset (margin og box-sizing)
-[] Liste-stil
-[] Enheter (px, ch, em, rem, %, vw/vh, max/min-width/height)
-[] background-size, background-image
-[] linear-gradient
-[] object-fit
-[] position static/relative/absolute/sticky/fixed
-[] scroll-behavior
-[] cursor (skjema)
-[] border-radius
-[] CSS Variabler
-[] :hover
-[] ::after
+- [] Flexbox
+- [] Kommentarer
+- [] Farger og bakgrunner
+- [] Marginer, polstring (padding), boksmodellen
+- [] Klasser og IDer
+- [] Kaskade og spesifisitet
+- [] Reset (margin og box-sizing)
+- [] Liste-stil
+- [] Enheter (px, ch, em, rem, %, vw/vh, max/min-width/height)
+- [] background-size, background-image
+- [] linear-gradient
+- [] object-fit
+- [] position static/relative/absolute/sticky/fixed
+- [] scroll-behavior
+- [] cursor (skjema)
+- [] border-radius
+- [] CSS Variabler
+- [] :hover
+- [] ::after
 
 ### Figma
 
-[] Frames
-[] Auto-layout
-[] Komponenter, egenskaper og varainter
-[] Navngiving og organisering
-[] Prototype modus
-[] Plassholder-tekst
+- [] Frames
+- [] Auto-layout
+- [] Komponenter, egenskaper og varainter
+- [] Navngiving og organisering
+- [] Prototype modus
+- [] Plassholder-tekst
