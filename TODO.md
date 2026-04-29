@@ -104,6 +104,7 @@
 - [ ] CSS Variabler
 - [ ] :hover
 - [ ] ::after
+- [ ] grid
 
 ### JavaScript
 
