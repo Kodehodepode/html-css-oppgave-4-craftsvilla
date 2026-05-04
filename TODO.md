@@ -117,6 +117,7 @@
 - [ ] Using camelCase
 - [ ] Descriptive variablenames
 - [ ] String concatenation with the + operator
+- [ ] Template strings
 
 ### Figma
 
