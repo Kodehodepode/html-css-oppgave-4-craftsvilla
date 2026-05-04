@@ -72,7 +72,7 @@ section {
     background-size: cover;
     animation-delay: 8s;
     z-index: 2;
-    opacity: 0;
+    opacity: 0; /* La utgangspunktet være usynlig, unngår at bildet "flasher" frem før det skal */
 }
 
 .hero .slideshow.bilde-3 {
@@ -81,22 +81,23 @@ section {
     background-size: cover;
     animation-delay: 16s;
     z-index: 1;
-    opacity: 0;
+    opacity: 0; /* La utgangspunktet være usynlig, unngår at bildet "flasher" frem før det skal */
 }
 
 @keyframes slideshow {
+    /* Denne koden er i stor grad hentet fra tutorial på https://www.w3.org/Style/Examples/007/slideshow.en.html */
     0% {
         opacity: 0;
     }
     5% {
         opacity: 1;
-    } /* Fade in quickly */
+    }
     33% {
         opacity: 1;
-    } /* Stay visible for 1/3 of the time */
+    }
     38% {
         opacity: 0;
-    } /* Fade out */
+    }
     100% {
         opacity: 0;
     }
