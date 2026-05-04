@@ -28,6 +28,32 @@ section {
     border: 2px solid red;
 }
 
+#logo {
+    font-size: 48px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    ul {
+        dispay: flex;
+        gap: 20px;
+    }
+}
+
+.knapp {
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    display: flex; /* Nok til å sentrere vertikalt */
+}
+.knapp:hover {
+    background: grey;
+}
+
 .hero {
     position: relative; /* utgangspunkt for posisjonering av underelement */
     height: 65dvh; /* Ellers kollapser boksen fordi posisjoneringen av barna tar dem ut av vanlig dokument-flyt */
