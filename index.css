@@ -135,3 +135,11 @@ nav {
         opacity: 0;
     }
 }
+
+.introduksjon {
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
