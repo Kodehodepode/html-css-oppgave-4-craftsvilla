@@ -23,11 +23,6 @@ main {
     gap: 20px;
 }
 
-section {
-    background: grey;
-    border: 2px solid red;
-}
-
 #logo {
     font-size: 48px;
 }
@@ -68,7 +63,6 @@ nav {
     .slideshow {
         height: 100%;
         width: 100%;
-        background: yellow;
         position: absolute;
         top: 0;
         left: 0;
