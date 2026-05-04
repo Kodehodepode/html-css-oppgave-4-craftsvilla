@@ -37,7 +37,7 @@ nav {
     display: flex;
     justify-content: space-between;
     ul {
-        dispay: flex;
+        display: flex;
         gap: 20px;
     }
 }
@@ -57,6 +57,13 @@ nav {
 .hero {
     position: relative; /* utgangspunkt for posisjonering av underelement */
     height: 65dvh; /* Ellers kollapser boksen fordi posisjoneringen av barna tar dem ut av vanlig dokument-flyt */
+
+    .knapp {
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+        z-index: 4;
+    }
 
     .slideshow {
         height: 100%;
