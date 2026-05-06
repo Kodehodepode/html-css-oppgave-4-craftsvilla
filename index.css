@@ -215,3 +215,25 @@ nav {
 #bestillingsskjema button.knapp {
     justify-self: end;
 }
+
+#takkForBestillingen:open {
+    /* Layout */
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    /* Posisjoner dialogen midt på siden selv om den ligger utenfor dokument-flyten */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Lag mørkere skygge */
+    &::backdrop {
+        background: rgba(0, 0, 0, 0.8);
+    }
+}

@@ -227,9 +227,32 @@
                             type="time"
                         />
                     </div>
-                    <button class="knapp" type="submit">Send inn</button>
+
+                    <!--
+                        Følgende knapp burde være type="submit", men for å unngå innsending av skjema
+                        og ny innlasting av siden som skjuler svardialogen, gir jeg den type="button".
+                    -->
+                    <button
+                        class="knapp"
+                        type="button"
+                        onclick="takkForBestillingen.showModal()"
+                    >
+                        Send inn
+                    </button>
                 </form>
-                <dialog id="takkForBestillingen"></dialog>
+                <dialog id="takkForBestillingen">
+                    <h2>Takk for bestillingen!</h2>
+                    <p>Vi tar kontakt.</p>
+                    <button
+                        class="knapp"
+                        onclick="
+                            takkForBestillingen.close();
+                            bestillingsskjema.reset();
+                        "
+                    >
+                        Ok
+                    </button>
+                </dialog>
             </section>
         </main>
         <footer></footer>
