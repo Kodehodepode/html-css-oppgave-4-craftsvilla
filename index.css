@@ -45,6 +45,7 @@ nav {
     background: black;
     display: flex; /* Nok til å sentrere vertikalt */
     width: fit-content; /* I stedet for display: inline-block */
+    border: 0;
 }
 .knapp:hover {
     background: grey;
