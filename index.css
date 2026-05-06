@@ -238,3 +238,15 @@ nav {
         background: rgba(0, 0, 0, 0.8);
     }
 }
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-kolonne,
+.sosiale-knapper {
+    display: flex;
+    flex-direction: column;
+}
+.sosiale-knapper img {
+    height: 30px;
+}
