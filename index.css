@@ -137,3 +137,38 @@ nav {
     flex-direction: column;
     gap: 20px;
 }
+
+.workshop {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 20px;
+    font-size: 24px;
+    margin-top: 20px;
+
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+}
+
+.salgspoeng {
+    display: grid;
+    grid-template-columns: 500px 120px;
+    gap: 20px;
+    align-items: center;
+    font-size: 24px;
+
+    img {
+        height: 100px;
+        aspect-ratio: 1/1; /* tilsvarer width: 100px; i dette tilfelle men aspect-ratio trengs ikke endres om height endres */
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+.fordeler .cta {
+    font-size: 32px;
+}
