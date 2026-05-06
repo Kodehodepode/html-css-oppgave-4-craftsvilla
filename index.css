@@ -172,3 +172,8 @@ nav {
 .fordeler .oppsummering {
     font-size: 32px;
 }
+
+.oppfordring {
+    text-align: center;
+    font-size: 24px;
+}
