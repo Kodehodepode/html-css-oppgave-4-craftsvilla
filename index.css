@@ -187,3 +187,31 @@ nav {
     font-size: 24px;
     gap: 20px;
 }
+
+#bestillingsskjema {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.skjema-felt {
+    display: flex;
+    flex-direction: column;
+
+    &.span-2 {
+        grid-row-start: span 2;
+    }
+
+    input,
+    select {
+        height: 2em;
+    }
+
+    textarea {
+        height: 100%;
+    }
+}
+
+#bestillingsskjema button.knapp {
+    justify-self: end;
+}

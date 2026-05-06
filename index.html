@@ -133,8 +133,102 @@
                     på under 4, se våre kommende workshops under!
                 </p>
             </section>
-            <section id="kalender"></section>
+            <section id="kalender">
+                <span class="dato">01.01.1011</span>
+                <div class="workshop">
+                    <img
+                        src="./bilder/tasha-kostyuk-xh5m7oUU8_Y-unsplash.jpg"
+                        alt="Mosaikk-kunst"
+                    />
+                    <h3>Mosaikk</h3>
+                    <p class="beskrivelse">
+                        Vi lager bilder av glassperler sammen i grupper på 4.
+                        Veilederen hjelper dere hele veien!
+                    </p>
+                    <p class="sitat">
+                        &quot;Kjempegøy&quot; &ndash; Silje Siljevik
+                    </p>
+                </div>
+                <span class="dato">02.02.2022</span>
+                <div class="workshop">
+                    <img
+                        src="./bilder/tasha-kostyuk-xh5m7oUU8_Y-unsplash.jpg"
+                        alt="Mosaikk-kunst"
+                    />
+                    <h3>Mosaikk</h3>
+                    <p class="beskrivelse">
+                        Vi lager bilder av glassperler sammen i grupper på 4.
+                        Veilederen hjelper dere hele veien!
+                    </p>
+                    <p class="sitat">
+                        &quot;Kjempegøy&quot; &ndash; Silje Siljevik
+                    </p>
+                </div>
+                <span class="dato">03.03.3033</span>
+                <div class="workshop">
+                    <img
+                        src="./bilder/evie-s-MicqqGyDQ6w-unsplash.jpg"
+                        alt="Maleri i akvarell"
+                    />
+                    <h3>Akvarell</h3>
+                    <p class="beskrivelse">
+                        Kursleder instruerer litt i teknikk, så får du la
+                        fantasien styre. Overrask deg selv! Resultatet kan tas
+                        med hjem.
+                    </p>
+                    <p class="sitat">
+                        &quot;Utrolig flink veileder!&quot; &ndash; Lars Larsnes
+                    </p>
+                </div>
+            </section>
             <section id="bestilling">
+                <h2>Bestilling</h2>
+                <form id="bestillingsskjema">
+                    <div class="skjema-felt">
+                        <label for="navn">Navn</label>
+                        <input id="navn" name="navn" type="text" />
+                    </div>
+                    <div class="skjema-felt">
+                        <label for="deltakere">Antall deltakere</label>
+                        <input id="deltakere" name="deltakere" type="number" />
+                    </div>
+                    <div class="skjema-felt">
+                        <label for="epost">Epost</label>
+                        <input id="epost" name="epost" type="email" />
+                    </div>
+                    <div class="skjema-felt">
+                        <label for="workshop" name="workshop" type="text"
+                            >Workshop</label
+                        >
+                        <select id="workshop" name="workshop">
+                            <option value="mosaikk">Mosaikk</option>
+                            <option value="akvarell">Akvarell</option>
+                            <option value="lerret">Maling på lerret</option>
+                        </select>
+                    </div>
+                    <div class="skjema-felt">
+                        <label for="tlf">Telefonnummer</label>
+                        <input id="tlf" name="tlf" type="text" />
+                    </div>
+                    <div class="skjema-felt">
+                        <label for="dato">Foretrukket dato</label>
+                        <input id="dato" name="dato" type="date" />
+                    </div>
+                    <div class="skjema-felt span-2">
+                        <label for="onsker">Spesielle ønsker</label>
+                        <textarea id="onsker" name="onsker"></textarea>
+                    </div>
+
+                    <div class="skjema-felt">
+                        <label for="klokkeslett">Foretrukket klokkeslett</label>
+                        <input
+                            id="klokkeslett"
+                            name="klokkeslett"
+                            type="time"
+                        />
+                    </div>
+                    <button class="knapp" type="submit">Send inn</button>
+                </form>
                 <dialog id="takkForBestillingen"></dialog>
             </section>
         </main>
