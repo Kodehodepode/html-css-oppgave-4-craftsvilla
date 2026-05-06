@@ -155,6 +155,12 @@ nav {
     }
 }
 
+.fordeler {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .salgspoeng {
     display: grid;
     grid-template-columns: 500px 120px;
