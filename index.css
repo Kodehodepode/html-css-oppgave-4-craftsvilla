@@ -1,3 +1,20 @@
+:root {
+    --button-background: black;
+    --button-hover: grey;
+    --button-text: white;
+
+    --default-padding: 20px;
+    --small-padding: 10px;
+    --extra-padding: 30px;
+
+    --section-spacing: 50px;
+
+    --font-normal: 20px;
+    --font-emphasis: 24px;
+    --font-big: 30px;
+    --font-huge: 48px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,13 +31,13 @@ ul#navigasjon {
 }
 
 body {
-    padding: 20px;
+    padding: var(--default-padding);
 }
 body,
 main {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: var(--section-spacing);
     font-family: sans-serif;
 }
 
@@ -30,7 +47,7 @@ nav,
 }
 
 #logo {
-    font-size: 48px;
+    font-size: var(--font-huge);
 }
 
 nav {
@@ -39,16 +56,16 @@ nav {
     justify-content: space-between;
     ul {
         display: flex;
-        gap: 20px;
+        gap: var(--default-padding);
     }
 }
 
 .knapp {
-    padding: 20px;
+    padding: var(--default-padding);
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
-    background: black;
+    color: var(--button-text);
+    background: var(--button-background);
     display: flex; /* Nok til å sentrere vertikalt */
     width: fit-content; /* I stedet for display: inline-block */
     border: 0;
@@ -56,7 +73,7 @@ nav {
 }
 
 .knapp:hover {
-    background: grey;
+    background: var(--button-hover);
 }
 
 .hero {
@@ -65,8 +82,8 @@ nav {
 
     .knapp {
         position: absolute;
-        bottom: 50px;
-        right: 50px;
+        bottom: var(--section-spacing);
+        right: var(--section-spacing);
         z-index: 4;
     }
 
@@ -87,8 +104,8 @@ nav {
         background-size: cover;
 
         h2 {
-            padding: 10px;
-            font-size: 48px;
+            padding: var(--small-padding);
+            font-size: var(--font-huge);
             color: white;
             background: black;
         }
@@ -142,18 +159,18 @@ nav {
 
 .introduksjon {
     text-align: center;
-    font-size: 24px;
+    font-size: var(--font-emphasis);
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: var(--default-padding);
 }
 
 .workshop {
     display: grid;
     grid-template-columns: 200px 1fr;
-    gap: 10px;
-    font-size: 24px;
-    margin-top: 20px;
+    gap: var(--small-padding);
+    font-size: var(--font-emphasis);
+    margin-top: var(--default-padding);
     align-items: center;
 
     img {
@@ -163,18 +180,20 @@ nav {
         grid-row-start: 1;
         grid-row-end: 4;
     }
+
     h3 {
-        padding-top: 20px;
+        padding-top: var(--default-padding);
     }
+
     .beskrivelse {
-        font-size: 20px;
+        font-size: var(--font-normal);
         align-self: start;
     }
 
     .sitat {
-        font-size: 20px;
+        font-size: var(--font-normal);
         font-style: italic;
-        padding-bottom: 30px;
+        padding-bottom: var(--extra-padding);
     }
 }
 
@@ -182,17 +201,17 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: var(--extra-padding);
     background: whitesmoke;
-    padding: 40px;
+    padding: var(--section-spacing);
 }
 
 .salgspoeng {
     display: grid;
     grid-template-columns: 500px 120px;
-    gap: 20px;
+    gap: var(--default-padding);
     align-items: center;
-    font-size: 24px;
+    font-size: var(--font-emphasis);
 
     img {
         height: 100px;
@@ -203,21 +222,21 @@ nav {
 }
 
 .fordeler .oppsummering {
-    font-size: 32px;
+    font-size: var(--font-big);
 }
 
 .oppfordring {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 24px;
-    gap: 20px;
+    font-size: var(--font-emphasis);
+    gap: var(--default-padding);
 }
 
 #bestillingsskjema {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    gap: 20px;
+    gap: var(--default-padding);
 }
 
 .skjema-felt {
