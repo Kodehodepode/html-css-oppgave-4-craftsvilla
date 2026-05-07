@@ -3,11 +3,13 @@
     --button-hover: grey;
     --button-text: white;
 
+    --background-emphasis: whitesmoke;
+
     --default-padding: 20px;
     --small-padding: 10px;
     --extra-padding: 30px;
 
-    --section-spacing: 50px;
+    --section-spacing: 60px;
 
     --font-normal: 20px;
     --font-emphasis: 24px;
@@ -168,7 +170,7 @@ nav {
 .workshop {
     display: grid;
     grid-template-columns: 200px 1fr;
-    gap: var(--small-padding);
+    gap: var(--extra-padding);
     font-size: var(--font-emphasis);
     margin-top: var(--default-padding);
     align-items: center;
@@ -202,7 +204,7 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: var(--extra-padding);
-    background: whitesmoke;
+    background: var(--background-emphasis);
     padding: var(--section-spacing);
 }
 
@@ -230,13 +232,34 @@ nav {
     flex-direction: column;
     align-items: center;
     font-size: var(--font-emphasis);
-    gap: var(--default-padding);
+    gap: var(--extra-padding);
+}
+
+#kalender {
+    h2 {
+        margin-bottom: var(--default-padding);
+    }
+    .dato {
+        font-weight: bold;
+        font-size: var(--font-normal);
+        background: var(--background-emphasis);
+        display: block;
+    }
+    .workshop {
+        margin-bottom: var(--extra-padding);
+    }
+}
+
+#bestilling {
+    background: var(--background-emphasis);
+    padding: var(--extra-padding);
 }
 
 #bestillingsskjema {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: var(--default-padding);
+    margin-top: var(--default-padding);
 }
 
 .skjema-felt {
@@ -285,12 +308,38 @@ nav {
 footer {
     display: flex;
     justify-content: space-around;
+
+    ul {
+        list-style: none;
+    }
+    li {
+        margin: var(--small-padding) 0;
+    }
+
+    background: darkslategray;
+    color: whitesmoke;
+    a {
+        color: whitesmoke;
+    }
+
+    padding-bottom: var(--section-spacing);
+    padding-top: var(--extra-padding);
+}
+.kontaktinfo h3 {
+    margin-bottom: var(--small-padding);
 }
 .footer-kolonne,
 .sosiale-knapper {
     display: flex;
     flex-direction: column;
-}
-.sosiale-knapper img {
-    height: 30px;
+    margin-top: var(--small-padding);
+    a {
+        display: flex;
+        align-items: center;
+        margin-bottom: var(--small-padding);
+    }
+    img {
+        height: 30px;
+        margin-right: var(--small-padding);
+    }
 }
